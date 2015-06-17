@@ -1,0 +1,82 @@
+#holder{
+	position:absolute;
+	clear:both;
+	width:100%;
+	min-height:350px;
+	width:575px;
+	max-width:100%;
+	overflow:hidden;
+	border:2px ridge gray;
+	border-radius:5px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:white;
+	box-shadow:2px 2px 10px rgba(0,0,0,.5);
+	margin-bottom:20px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+}
+#message{
+	font-family:sans-serif;
+	position:absolute;
+	bottom:0px;
+	text-align:center;
+	width:calc(100% - 20px);
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:33px;
+}
+#pickerL{
+	position:absolute;
+	left:0px;
+	height:270px;
+	width:46%;
+	z-index:10;
+}
+#pickerR{
+	position:absolute;
+	right:0px;
+	height:270px;
+	width:46%;
+	z-index:10;
+}
+.tiny-person{
+	position:absolute;
+	height:15px;
+	width:15px;
+	box-shadow:1px 1px 4px rgba(0,0,0,0.66);
+	z-index:0;
+}
+.transition{
+	transition:ease-out;
+	transition-duration:.5s;
+}
+.pointer{
+	cursor:pointer;
+}
+.male{
+	border-radius: 0px;
+}
+.female{
+	border-radius: 10px;
+}
+.rich{
+	border: 3px solid #EEE;
+}
+.middle{
+	border: 3px solid gray;
+}
+.poor{
+	border: 3px solid black;
+}
+.blue{
+	background-color:#38799c;
+}
+.green{
+	background-color:#8da041;
+}
+.red{
+	background-color:#db4417;
+}

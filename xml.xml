@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<defaults>
+		<texture>img/polar.jpg</texture>
+	</defaults>
+	<question>
+		<type>find</type>
+		<text>Click on the bridge.</text>
+		<feedback>Remember: Look for bridges OVER WATER.</feedback>
+		<targetHeight>.5</targetHeight>
+		<targetWidth>3</targetWidth>
+		<xRot>-5</xRot>
+		<yRot>-155</yRot>
+		<zRot>5</zRot>
+	</question>
+	<question>
+		<type>activity</type>
+		<text>Click on the picnic tables to start an activity completely unrelated to picnic tables.</text>
+		<activityText>This illustrates the thesis of an essay at joshhugo.com, but here it's just an example of how "activities" can be incorporated into the quiz.</activityText>
+
+		<src><![CDATA[
+		<div id="holder">
+<div id="message">.</div>
+<div id="pickerL">.</div>
+<div id="pickerR"></div>
+<input id="go" style="position: absolute; bottom: 5px; left: 5px; cursor: pointer;" type="button" value="Populate" />
+<input id="seg" style="position: absolute; bottom: 5px; right: 5px; cursor: pointer;" type="button" value="Segregate" />
+
+</div>
+
+<script src="activities/auto-segregator/script.js"></script>
+		]]></src>
+		<targetHeight>.5</targetHeight>
+		<targetWidth>1.5</targetWidth>
+		<xRot>0</xRot>
+		<yRot>148</yRot>
+		<zRot>0</zRot>
+	</question>
+	<question>
+		<type>multiple choice</type>
+		<texture>img/polar_highlight.jpg</texture>
+		<text>What is this building?</text>
+		<feedback>It's a little wooden hut with a tall chimney-looking thing comingout of it. Only one kind of building looks like that...</feedback>
+		<distractors>
+			<A>A oldtime schoolhouse.</A>
+			<B>A a woodshed.</B>
+			<C>An outhouse.</C>
+			<D>All of the above.</D>
+		</distractors>
+		<answer>3</answer>		
+	</question>
+	<question>
+		<type>find</type>
+		<text>Click on the driftwood on the sand.</text>
+		<feedback>It looks like it used to be part of a house, maybe.</feedback>
+		<targetHeight>.4</targetHeight>
+		<targetWidth>1</targetWidth>
+		<xRot>24</xRot>
+		<yRot>-145</yRot>
+		<zRot>15</zRot>
+	</question>
+</root>
